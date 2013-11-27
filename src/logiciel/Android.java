@@ -1,3 +1,6 @@
+/**
+ * @author pennachio
+ */
 package logiciel;
 
 public class Android extends Os {
