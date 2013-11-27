@@ -7,7 +7,7 @@ package utilisateurs;
 import materiel.Materiel;
 public class Gestionnaire extends Utilisateur{
 
-	Gestionnaire(String name, String password) {
+	public Gestionnaire(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
 		

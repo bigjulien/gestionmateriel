@@ -10,7 +10,7 @@ package parser;
 public enum CommandWord {
     // A value for each command word along with its
     // corresponding user interface string.
-    USER("user"), LOGOUT("logout"), QUIT("quit"), SHOWMATERIEL("showmateriel"), SHOWREQ("showreq"), DATE("date"), SETDATE("setdate"),  UNKNOWN("?") ;
+    USER("user"),  LOGOUT("logout"), HELP("help"), REQ("req"), QUIT("quit"), SHOWMATERIEL("showmateriel"), SHOWREQ("showreq"), DATE("date"), SETDATE("setdate"), UNKNOWN("?") ;
 
     // The command string.
     private String commandString;

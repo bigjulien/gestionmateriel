@@ -7,7 +7,8 @@ package utilisateurs;
 
 public abstract class Utilisateur
 {
-	protected String name;
+	private String name;
+	private boolean islogged=false;
 	
 	Utilisateur(String name)
 	{

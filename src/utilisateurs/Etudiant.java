@@ -6,7 +6,7 @@ package utilisateurs;
 
 public class Etudiant extends Emprunteur{
 
-	Etudiant(String name, String password) {
+	public Etudiant(String name) {
 		super(name);
 		// TODO Auto-generated constructor stub
 	}
