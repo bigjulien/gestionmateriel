@@ -141,7 +141,7 @@ public class Simulation {
     private boolean quit()
     {
 	
-	System.out.println("Attention ! L'état de l'application ne sera pas sauvegardée ! Voulez vous réelement quitter (Y/N) ? ");
+	System.out.println("Attention ! L'état de l'application ne sera pas sauvegardée ! \n Voulez vous réelement quitter (Y/N) ? ");
 	Scanner reader = new Scanner(System.in);
 	String a=reader.next();
 	if(a.equals("Y"))
