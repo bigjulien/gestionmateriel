@@ -14,4 +14,8 @@ public abstract class Utilisateur
 	{
 		this.name =name;		
 	}
+	
+	public String getName(){
+		return this.name;
+	}
 }
